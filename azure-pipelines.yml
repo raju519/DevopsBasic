@@ -31,3 +31,5 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'war'
     publishLocation: 'Container'
+# deploy articat into azure webapp service . it contains java and tomcat application .
+# release pipeline  add artifact --> stage1 qa --> prod
